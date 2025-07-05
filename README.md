@@ -46,6 +46,9 @@ Learn how to read and manipulate Linux file permissions.
    ```
    ls -latr script.sh
    ```
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/2.png?raw=true)
+
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/3.png?raw=true)
 
 3. Modified permissions:
    ```
@@ -72,7 +75,7 @@ Learn how to read and manipulate Linux file permissions.
   - entered contact no of the user
   - in place of other i put the initial of the sex
   - and enter Y to confirm the detail and account creation
-  
+  ![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/5.png?raw=true)
 ---
 # TASKS FOR ME AND HOW I DID THEM
 
@@ -91,7 +94,7 @@ To change the password of a user (e.g., `ebhosworks`), I used the `passwd` comma
 sudo passwd ebhosworks
 ```
 The system prompted me to enter the current password, enter the new password and confirm the new password. After updating the password, I tested it by logging in as `ebhosworks` with the new credentials to ensure it worked.
-
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/re-new-password.png?raw=true)
 ---
 
 ##  Task 2: Managing Groups
@@ -115,6 +118,7 @@ To confirm that the user was added to the group, I used the `id` command:
 id ebhosworks
 ```
 The output listed `developers` among the user's groups, confirming successful addition.
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/group-created.png?raw=true)
 
 ### Deleting a User
 To delete any user, I used the following command:
@@ -147,7 +151,15 @@ sudo adduser  sofia
   - entered contact no of the user
   - in place of other i put the initial of the sex
   - and enter Y to confirm the detail and account creation
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/mary.png?raw=true)
 
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/mohammed.png?raw=true)
+
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/ravi.png?raw=true)
+
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/tunji.png?raw=true)
+
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/sofia.png?raw=true)
 
 ###  Adding Users to the Group
 Next, I added the created user to the `devopss` 
@@ -158,7 +170,7 @@ sudo usermod -aG developers ravi
 sudo usermod -aG developers tunji
 sudo usermod -aG developers socia
 ```
-
+![](https://github.com/adaezeokoduwa/linux-fourth-mini-project/blob/main/pics/add-user-devops.png?raw=true)
 
 Then, I granted read and write permissions to the group:
 ```
